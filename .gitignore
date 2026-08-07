@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large checkpoint files (binary weights)
+checkpoints/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary / OS files
+*.tmp
+*.log

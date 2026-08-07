@@ -1,0 +1,25 @@
+{
+  "total_samples": 69865,
+  "train_samples": 55892,
+  "validation_samples": 6986,
+  "test_samples": 6987,
+  "labels": {
+    "0": {
+      "name": "Negative",
+      "count": 21370,
+      "percentage": 30.59
+    },
+    "1": {
+      "name": "Neutral",
+      "count": 27461,
+      "percentage": 39.31
+    },
+    "2": {
+      "name": "Positive",
+      "count": 21034,
+      "percentage": 30.11
+    }
+  },
+  "duplicates_removed": 5,
+  "random_seed": 42
+}

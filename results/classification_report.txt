@@ -1,0 +1,22 @@
+BiLSTM-Transformer Sentiment Classification - Test Results
+============================================================
+
+Accuracy:    0.6406
+Macro F1:    0.6267
+Weighted F1: 0.6381
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Negative     0.5409    0.6454    0.5885      2276
+     Neutral     0.6135    0.7505    0.6751      5492
+    Positive     0.8189    0.4944    0.6166      4207
+
+    accuracy                         0.6406     11975
+   macro avg     0.6578    0.6301    0.6267     11975
+weighted avg     0.6718    0.6406    0.6381     11975
+
+Confusion Matrix:
+[[1469  731   76]
+ [ 986 4122  384]
+ [ 261 1866 2080]]
