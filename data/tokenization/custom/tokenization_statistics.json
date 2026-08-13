@@ -1,0 +1,60 @@
+{
+    "dataset_name": "TweetEval",
+    "vocabulary_summary": {
+        "vocab_size": 45540,
+        "unique_raw_tokens": 45536,
+        "total_token_occurrences": 857798,
+        "singleton_tokens": 25908
+    },
+    "max_length": 40,
+    "splits": {
+        "train": {
+            "samples": 38914,
+            "raw_token_length_stats": {
+                "min": 1,
+                "mean": 22.04,
+                "median": 22.0,
+                "p90": 31.0,
+                "p95": 33.0,
+                "p99": 38.0,
+                "max": 67
+            },
+            "truncated_samples": 383,
+            "truncation_percentage": 0.98,
+            "unk_token_count": 0,
+            "unk_rate_percentage": 0.0
+        },
+        "validation": {
+            "samples": 8980,
+            "raw_token_length_stats": {
+                "min": 1,
+                "mean": 22.22,
+                "median": 22.0,
+                "p90": 31.0,
+                "p95": 34.0,
+                "p99": 39.20999999999913,
+                "max": 99
+            },
+            "truncated_samples": 113,
+            "truncation_percentage": 1.26,
+            "unk_token_count": 6205,
+            "unk_rate_percentage": 2.861
+        },
+        "test": {
+            "samples": 11975,
+            "raw_token_length_stats": {
+                "min": 1,
+                "mean": 22.08,
+                "median": 22.0,
+                "p90": 31.0,
+                "p95": 33.0,
+                "p99": 39.0,
+                "max": 67
+            },
+            "truncated_samples": 132,
+            "truncation_percentage": 1.1,
+            "unk_token_count": 8050,
+            "unk_rate_percentage": 2.7981
+        }
+    }
+}

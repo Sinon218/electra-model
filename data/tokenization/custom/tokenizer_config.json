@@ -1,0 +1,24 @@
+{
+    "tokenizer_type": "custom",
+    "vocab_size": 45540,
+    "max_length": 40,
+    "padding": true,
+    "truncation": true,
+    "special_tokens": {
+        "pad": "<PAD>",
+        "unk": "<UNK>",
+        "bos": "<BOS>",
+        "eos": "<EOS>"
+    },
+    "special_token_ids": {
+        "<PAD>": 0,
+        "<UNK>": 1,
+        "<BOS>": 2,
+        "<EOS>": 3
+    },
+    "source_dataset": "TweetEval",
+    "random_seed": 42,
+    "splits_dir": "data\\splits",
+    "custom_tokenization_dir": "data\\tokenization\\custom",
+    "custom_tokenized_dir": "data\\tokenized\\custom"
+}
